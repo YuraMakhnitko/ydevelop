@@ -422,21 +422,7 @@ body {
 .me__images {
   display: flex;
   flex-direction: column;
-}
-@media (min-width: 78.75em) {
-  .me__images {
-    row-gap: 6.25rem;
-  }
-}
-@media (min-width: 20em) and (max-width: 78.75em) {
-  .me__images {
-    row-gap: clamp( 6.25rem , 6.25rem  +  0vw , 6.25rem );
-  }
-}
-@media (max-width: 20em) {
-  .me__images {
-    row-gap: 6.25rem;
-  }
+  row-gap: 100px;
 }
 @media (max-width: 29.99875em) {
   .me__images {
